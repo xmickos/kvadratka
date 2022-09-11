@@ -1,0 +1,55 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/Untitled-1",
+        "args": ["-arg1", "-arg2"]
+    },
+      {
+        "name": "Python: Текущий файл",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Python: Текущий файл",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "clang++ - Сборка и отладка активного файла",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/Users/xmickos/Desktop/govno.jopa.kosmos/kvadratka/Untitled-1",
+        "args": [],
+        "stopAtEntry": false,
+        "launchCompleteCommand": "exec-run",
+        "cwd": "/Users/xmickos/Desktop/govno.jopa.kosmos/kvadratka",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "lldb",
+        "preLaunchTask": "C/C++: clang++ сборка активного файла"
+      },
+      {
+        "name": "C/C++ Runner: Debug Session",
+        "type": "lldb",
+        "request": "launch",
+        "args": [
+          ""
+        ],
+        "stopAtEntry": true,
+        "cwd": "/Users/xmickos/Desktop/govno.jopa.kosmos/kvadratka",
+        "environment": [],
+        "program": "/Users/xmickos/Desktop/govno.jopa.kosmos/kvadratka/Untitled-1",
+        "internalConsoleOptions": "openOnSessionStart",
+        "MIMode": "gdb",
+        "externalConsole": false
+      }
+    ]
+  }
